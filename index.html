@@ -1,1 +1,62 @@
-index.html
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Ejercicio Final Coderhouse" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<title>Ejercicio Final</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/jquery.pagepiling.css" />
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.pagepiling.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="assets/css/sass.css">
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function() {
+
+			/*
+			* Plugin intialization
+			*/
+	    	$('#pagepiling').pagepiling({
+	    		menu: '#menu',
+	    		anchors: ['page1', 'page2', 'page3', 'page4'],
+			    sectionsColor: ['#29bcf6', '#42a5f5', '#5c6bc0', '#7e57c2'],
+			    navigation: {
+			    	'position': 'right',
+			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+			   	},
+			  
+			});
+
+
+	    });
+    </script>
+	</head>
+	<body>
+		<header>
+			<ul id="menu">
+				<li data-menuanchor="page1" class="active"><a href="#page1">Page 1</a></li>
+				<li data-menuanchor="page2"><a href="#page2">Page 2</a></li>
+				<li data-menuanchor="page3"><a href="#page3">Page 3</a></li>
+				<li data-menuanchor="page4"><a href="#page4">Page 4</a></li>
+			</ul>
+		</header>
+		<section>
+			<div id="pagepiling">
+			    <div class="section" id="section1">Inicio</div>
+			    <div class="section" id="section2">Features</div>
+			    <div class="section" id="section3">
+			    	<section>
+			    		<span class="ion-social-facebook"></span>
+			    		<span class="ion-social-github"></span>
+			    		<span class="ion-social-tumblr"></span>
+			    		<span class="ion-social-linkedin"></span>
+			    	</section>
+			    </div>
+			    <div class="section" id="section4">Formulario</div>
+			</div>
+
+		</section>
+	</body>
+</html>
