@@ -16,11 +16,11 @@ var validator = (function($){
     */
     message = {
         invalid         : 'invalid input',
-        empty           : 'please put something here',
+        empty           : 'rellena este campo',
         min             : 'input is too short',
         max             : 'input is too long',
-        number_min      : 'too low',
-        number_max      : 'too high',
+        number_min      : 'muy corto',
+        number_max      : 'muy largo',
         url             : 'invalid URL',
         number          : 'not a number',
         email           : 'email address is invalid',

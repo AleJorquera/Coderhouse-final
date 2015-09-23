@@ -1,13 +1,17 @@
 .options{ position:absolute; top:-1px; right:-1px; background-color:#F1F1F1; padding:4px 0; border-left:1px dashed #AAA; border-bottom:1px dashed #AAA; }
 	.options label{ cursor:pointer; margin:0 10px; }
 
+#wrap{ padding:50px; width:860px; background-color:#FFF; margin:20px auto; border:1px dashed #AAA; position:relative; }
+.options{ position:absolute; top:-1px; right:-1px; background-color:#F1F1F1; padding:4px 0; border-left:1px dashed #AAA; border-bottom:1px dashed #AAA; }
+	.options label{ cursor:pointer; margin:0 10px; }
+
 input, textarea{ border:1px solid #D1D1D1; }
 input, select{ font-size:inherit; margin:0; }
 input:focus, textarea:focus{ border-color:#AAA; }
 
 input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { -webkit-appearance:none; margin:0; }
 input[type=checkbox]{ width:auto; border:none; bottom:-1px; cursor:pointer; margin:0 5px 0 0; position:relative; }
-button[type=submit]{ font-size:1.1em; padding:5px 25px; }
+button[type=submit]{ font-size:0.9em; padding:5px 25px; background-color: #311B92;border: none; color:white; }
 
 /* Tooltips helpers */
 .item .tooltip{ float:left; top:2px; left:7px; position:relative; z-index:2; }
@@ -40,10 +44,10 @@ button[type=submit]{ font-size:1.1em; padding:5px 25px; }
 }
 
 form fieldset{ border:none; clear:both; margin:0 0 10px 0; }
-form .item{ padding:5px 0; position:relative; height:2em; }
+form .item{ padding:5px 0; width:860px; margin: 0 auto; height:2em; }
 form .item.items{ height:auto; }
 	.item label, .item .label{ float:left; cursor:pointer; }
-		.item label span, .item .label{ float:left; width:160px; text-transform:capitalize; line-height:2em; }
+		.item label span, .item .label{ float:left; width:130px; text-transform:capitalize; line-height:2em; }
 	.item input, .item textarea{ float:left; padding:3px 4px; width:210px; -webkit-transition:0.2s; -moz-transition:0.2s; transition:0.2s; }
 	.item input[type=checkbox]{ width:auto; }
 	

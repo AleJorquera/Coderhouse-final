@@ -32,6 +32,9 @@ body #pagepiling #section2 section {
 body #pagepiling #section2 section p {
   text-align: center;
 }
+body #pagepiling #section2 section figure {
+  text-align: center;
+}
 body #pagepiling #section3 {
   width: 100%;
   height: 100%;
@@ -61,4 +64,8 @@ body #pagepiling #section4 .wrap {
 }
 body #pagepiling #section4 .wrap form {
   border: none;
+  padding-top: 30px;
+}
+body #pagepiling #section4 .wrap form button {
+  cursor: pointer;
 }
