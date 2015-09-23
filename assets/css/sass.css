@@ -10,6 +10,12 @@ body #pagepiling #section1 {
   width: 100%;
   height: 100%;
 }
+body #pagepiling #section1 figure {
+  width: 100%;
+}
+body #pagepiling #section1 figure img {
+  width: 200px;
+}
 body #pagepiling #section2 {
   width: 100%;
   height: 100%;
@@ -27,4 +33,8 @@ body #pagepiling #section3 section {
 }
 body #pagepiling #section3 section span {
   padding: 0 35px;
+}
+body #pagepiling #section4 {
+  width: 100%;
+  height: 100%;
 }
