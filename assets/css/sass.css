@@ -5,6 +5,11 @@
 
 body {
   font-family: Verdana, sans-serif;
+  color: white;
+}
+body h1 {
+  font-size: 40px;
+  text-align: center;
 }
 body #pagepiling #section1 {
   width: 100%;
@@ -20,10 +25,16 @@ body #pagepiling #section2 {
   width: 100%;
   height: 100%;
 }
+body #pagepiling #section2 section {
+  width: 1024px;
+  margin: 0 auto;
+}
+body #pagepiling #section2 section p {
+  text-align: center;
+}
 body #pagepiling #section3 {
   width: 100%;
   height: 100%;
-  color: white;
   font-size: 100px;
 }
 body #pagepiling #section3 section {
@@ -31,10 +42,23 @@ body #pagepiling #section3 section {
   margin: 0 auto;
   text-align: center;
 }
-body #pagepiling #section3 section span {
+body #pagepiling #section3 section a {
+  color: rgba(255, 255, 255, 0.5);
+}
+body #pagepiling #section3 section a:hover {
+  color: white;
+}
+body #pagepiling #section3 section a span {
   padding: 0 35px;
 }
 body #pagepiling #section4 {
   width: 100%;
   height: 100%;
+}
+body #pagepiling #section4 .wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+body #pagepiling #section4 .wrap form {
+  border: none;
 }
